@@ -19,7 +19,7 @@ systemctl stop mysqld
 
 #注意！！！以下目录要换成你的目录
 
-mkdir –vp /data/mysql_data
+mkdir -p /data/mysql_data
 
 mv /var/lib/mysql /data/mysql_data/
 
